@@ -16,7 +16,7 @@ jobs:
       - run: mvn test
       
       - store_test_results:
-          path: /work/git/teaching-2020.prse.test/target/surefire-reports
+          path: /home/circleci/test/at.jku.se.prse.example.calculator/target/surefire-reports
           
       - store_artifacts:
-          path: /work/git/teaching-2020.prse.test/target/surefire-reports/junit      
+          path: /home/circleci/test/at.jku.se.prse.example.calculator/target/surefire-reports/junit      
