@@ -19,4 +19,4 @@ jobs:
           path: /home/circleci/test/at.jku.se.prse.example.calculator/target/surefire-reports
           
       - store_artifacts:
-          path: /home/circleci/test/at.jku.se.prse.example.calculator/target/*.jar 
+          path: /home/circleci/test/at.jku.se.prse.example.calculator/target 
