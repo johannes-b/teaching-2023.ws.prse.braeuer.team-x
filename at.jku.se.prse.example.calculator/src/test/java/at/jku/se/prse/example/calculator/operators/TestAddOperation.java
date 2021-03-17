@@ -40,7 +40,7 @@ public class TestAddOperation {
 	@org.junit.Test
 	public void testCalculate2() {
 		String result = add.caclulate("000+3");
-		assertEquals(Integer.parseInt(result), 3);
+		assertEquals(Integer.parseInt(result), 4);
 	}
 
 	/**
