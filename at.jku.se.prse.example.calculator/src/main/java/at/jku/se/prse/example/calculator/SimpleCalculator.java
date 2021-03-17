@@ -33,7 +33,7 @@ public class SimpleCalculator extends JFrame {
 	}
 
 	/**
-	 * 
+	 * UI Components
 	 */
 	private static final long serialVersionUID = -8989515696863631010L;
 	private JPanel contentPane;
