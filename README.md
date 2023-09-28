@@ -1,1 +1,1 @@
-# Praktikum Software Engineering SS2021
+# Praktikum Software Engineering WS2023
