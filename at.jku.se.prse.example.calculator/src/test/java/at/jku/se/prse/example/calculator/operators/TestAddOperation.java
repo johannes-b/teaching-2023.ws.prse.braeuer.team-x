@@ -51,7 +51,7 @@ public class TestAddOperation {
 	 */
 	@Test(expected = IllegalArgumentException.class)
 	public void testCalculateException() {
-		String result = add.caclulate("xyz+3");
+		String result = add.caclulate("abc+3");
 		assertEquals(Integer.parseInt(result), 3);
 	}
 
