@@ -81,9 +81,9 @@ git push --set-upstream origin release-0.1.0
 
 # GitHub Markdown
 
-Um Dokumentation auf GitHub zu verwalten, muss diese in Markdown geschrieben werden. Eine gute Quelle um sich mit der Markdown Syntax für die Formattierung vertraut zu machen ist hier verfügbar: [Grundlegende Schreib- und Formatierungssyntax](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+Um Dokumentation auf GitHub zu verwalten, muss diese in Markdown geschrieben werden. Eine gute Quelle um sich mit der Markdown Syntax für die Formatierung vertraut zu machen ist hier verfügbar: [Grundlegende Schreib- und Formatierungssyntax](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-Neben den Standardfunktionalitäten wie Überschriften, Textformatierungen, Code-Beispiele und Links sind Relative Links eine wichtige Funktionalität um Struktur in die Dokumentation zu bringen. 
+Neben den Standardfunktionalitäten wie Überschriften, Textformatierungen, Code-Beispiele und Links sind Relative Links eine wichtige Funktionalität, um Struktur in die Dokumentation zu bringen. 
 
 ## Relative Links
 
@@ -114,6 +114,3 @@ Emojis können dem Text hinzugefügt werden, indem der :EMOJICODE:, einen Doppel
 :+1: This PR looks great - it's ready to merge! :shipit:
 
 Eine vollständige Liste der verfügbaren Emojis und Codes findest ist hier verfügbar: [Emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
-
-# Zusammenfassung
-
