@@ -2,7 +2,7 @@
 
 ## Einführung
 
-Git ist ein kostenloses und quelloffenes verteiltes Versionskontrollsystem, das entwickelt wurde, um Projekte unterschiedlicher größe schnell und effizient abzuwickeln.
+Git ist ein kostenloses, quelloffenes und verteiltes Versionskontrollsystem, das für Projekte unterschiedlicher größe entwickelt wurd, um diese schnell und effizient abzuwickeln.
 
 * Download Git: https://git-scm.com/downloads
 * GitHub Account anlegen: https://github.com/signup
