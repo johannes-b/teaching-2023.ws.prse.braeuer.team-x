@@ -2,7 +2,7 @@
 
 ## Einführung
 
-Git ist ein verteiltes Versionskontrollsystem, das für Projekte unterschiedlicher größe entwickelt wurd, um diese schnell und effizient abzuwickeln.
+Git ist ein verteiltes Versionskontrollsystem, das für Projekte unterschiedlicher Größe entwickelt wurde, um diese schnell und effizient abzuwickeln.
 
 * Download Git: https://git-scm.com/downloads
 * GitHub Account anlegen: https://github.com/signup
@@ -18,14 +18,14 @@ git clone https://github.com/johannes-b/teaching-2023.ws.prse.braeuer.team-x.git
 
 ## Git Flow
 
-Git Flow ist eine beliebte Git-Branching-Strategie, um das Releasemanagement eines Projektes zu vereinfachen. Es erlaubt und unterstüzt: 
+Git Flow ist eine beliebte Git-Branching-Strategie, um das Releasemanagement eines Projektes zu vereinfachen. Es erlaubt und unterstützt: 
 
 * *Parallele Entwicklung*: Isoliert neue Entwicklung von fertiger Arbeit.
 * *Zusammenarbeit*: Erleichtert die Zusammenarbeit von zwei oder mehr Entwicklern an derselben Funktion.
 * *Veröffentlichungs- und Staging-Prozess*: Sobald die Entwicklung eines Features abgeschlossen ist, wird die Änderung in den `main` Branch integriert, der ein Staging-Bereich für alle abgeschlossenen Funktionen darstellt.
 * *Bug-Fixes*: Unterstützt Hotfixes–Branches, die aus einer getaggten Version erstellt wurden, die nur den Bug-Fix enthält.
 
-Man unterscheided zwischen unterschiedlichen Branche Typen, die basierend auf ihren Namen eine untschiedliche Bedeutung haben.
+Man unterscheidet zwischen unterschiedlichen Branche Typen, die basierend auf ihren Namen eine unterschiedliche Bedeutung haben.
 
 * `main` - Repräsentiert den aktuellen Entwicklungsstand und existiert bis zum Löschen des Repositories.
 * `feature/1234/name` - Wird für die Entwicklung eines Features angelegt und nach Integration in den `main` Branch gelöscht.
@@ -34,7 +34,7 @@ Man unterscheided zwischen unterschiedlichen Branche Typen, die basierend auf ih
 
 ### Feature entwickeln
 
-Die folgenden Schritte zeigen einen Featureentwicklung in einem seperaten Branch und bezogen zu einem Ticket mit der ID: *4711*
+Die folgenden Schritte zeigen einen Feature Entwicklung in einem separaten Branch und bezogen zu einem Ticket mit der ID: *4711*
 
 * Den `main` Branch aktualisieren:
 ```
@@ -59,9 +59,11 @@ git commit -m "#4711 Commit message"
 git push --set-upstream origin feature/4711/add-button
 ```
 
-* Nachdem die Entwicklung abgeschlossen ist, einen Pull Request (PR) in GitHub erstellen, um die Änderung zu integrieren. Dabei einen sprechenden Namen wählen und eine kurze Beschreibung bereistellen.
+* Nachdem die Entwicklung abgeschlossen ist, mit einem Pull Request (PR) auf GitHub die Änderung integrieren. Dabei einen sprechenden Namen wählen und eine kurze Beschreibung bereitstellen.
 
-* Nachdem der Pull Request (PR) gemerged wurde (**Squash and merge**), im Arbeitsverzeichnis wieder auf den `main` Branch wechseln und den letzten Stand abrufen:
+* Den Pull Request (PR) mit **Squash and merge** in den `main` Branch integrieren. 
+
+* Danach im Arbeitsverzeichnis wieder auf den `main` Branch wechseln und den letzten Stand abrufen:
 ```
 git checkout main
 git pull
@@ -74,12 +76,8 @@ Ein Release Branch startet mit dem Namen `release` gefolgt von der Versionsnumme
 ```
 git checkout main
 git create -b release-0.1.0
-git push
+git push --set-upstream origin release-0.1.0
 ```
 
 ## Zusammenfassung
-
-
-
-
 
