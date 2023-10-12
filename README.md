@@ -7,9 +7,9 @@ Git ist ein verteiltes Versionskontrollsystem, das für Projekte unterschiedlich
 * Download Git: https://git-scm.com/downloads
 * GitHub Account anlegen: https://github.com/signup
 
-## Funktionen
+## Getting Started
 
-Die wichtigsten Funktionen für Git sind hier zusammengefasst: [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+Die wichtigsten Funktionen für Git sind in diesem [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) zusammengefasst.
 
 * Initial das Repository von GitHub auf die eigene Entwicklerumgeben klonen:
 ```
@@ -78,6 +78,29 @@ git checkout main
 git create -b release-0.1.0
 git push --set-upstream origin release-0.1.0
 ```
+
+## GitHub Markdown
+
+Um Dokumentation auf GitHub zu verwalten, muss diese in Markdown geschrieben werden. Eine gute Quelle um sich mit der Markdown Syntax für die Formattierung vertraut zu machen ist hier verfügbar: [Grundlegende Schreib- und Formatierungssyntax](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+Neben den Standardfunktionalitäten wie Überschriften, Textformatierungen, Code-Beispiele und Links sind Relative Links eine wichtige Funktionalität um Struktur in die Dokumentation zu bringen. 
+
+### Relative Links
+
+Es können relative Links und Bildpfade in deinen gerenderten Dateien definiert werden, um Leser dabei zu unterstützen, in deinem Repository zu anderen Dateien zu navigieren.
+
+Ein relativer Link ist ein Verknüpfung, die relativ zur aktuellen Datei ist. Wenn sich beispielsweise eine README-Datei im Root deines Repositorys und eine andere Datei in docs/CONTRIBUTING.md befindet, sieht der relative Link zu CONTRIBUTING.md in deiner README-Datei wie folgt aus:
+
+```
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+```
+
+### Bilder
+
+Bilder können angezeigt werden,  indem man ein `!` hinzufügst und den Alternativtext mit [ ] umschließt. Alternativtext ist ein kurzer Text, der den Informationen im Bild entspricht. Umschließe dann den Link für das Bild mit Klammern ().
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
 
 ## Zusammenfassung
 
