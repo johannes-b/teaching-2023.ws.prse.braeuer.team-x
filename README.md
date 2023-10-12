@@ -9,16 +9,20 @@ Git ist ein kostenloses, quelloffenes und verteiltes Versionskontrollsystem, das
 
 ## Funktionen
 
-Die wichtigsten Funktionen vit Git sind hier zusammengefasst: [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+Die wichtigsten Funktionen für Git sind hier zusammengefasst: [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 * Initial das Repository von GitHub auf die eigene Entwicklerumgeben klonen:
 ```
 git clone 
 ```
 
+## Git Flow
+
+Git Flow ist eine beliebte Git-Verzweigungsstrategie, um das Release-Management eines Projektes zu vereinfachen.
+
 ### Feature in einem Branch entwickeln
 
-Die folgenden Schritte zeigen einen Feature-Entwicklung in einem seperaten Branch und bezogen zu einem Ticket mit der ID: *4711* . 
+Die folgenden Schritte zeigen einen Feature-Entwicklung in einem seperaten Branch und bezogen zu einem Ticket mit der ID: *4711*
 
 * Aus dem Arbeitsverzeichnis einen Feature-Branch basierend auf dem letzten Commit erzeugen:
 ```
