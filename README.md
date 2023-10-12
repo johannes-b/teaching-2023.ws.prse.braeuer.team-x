@@ -1,7 +1,5 @@
 # Git (with GitHub)
 
-Add a new feature
-
 ## Einführung
 
 Git ist ein verteiltes Versionskontrollsystem, das für Projekte unterschiedlicher größe entwickelt wurd, um diese schnell und effizient abzuwickeln.
@@ -50,10 +48,10 @@ git branch feature/4711/add-button
 git checkout feature/4711/add-button
 ```
 
-* Änderungen in einer Datei speichern und auf den Branch committen. Dabei auch die Ticket ID referenzieren:
+* Änderungen in einer Datei speichern und auf den Branch committen. Dabei auch die Ticket ID mit `#` referenzieren:
 ```
 git add .
-git commit -m "Commit message (#4711)"
+git commit -m "#4711 Commit message"
 ```
 
 * Den Feature Branch auf GitHub bereitstellen:
@@ -61,9 +59,9 @@ git commit -m "Commit message (#4711)"
 git push --set-upstream origin feature/4711/add-button
 ```
 
-* Nachdem die Entwicklung abgeschlossen ist, einen Pull Request (PR) in GitHub anlegen, um die Änderung zu integrieren. 
+* Nachdem die Entwicklung abgeschlossen ist, einen Pull Request (PR) in GitHub erstellen, um die Änderung zu integrieren. Dabei einen sprechenden Namen wählen und eine kurze Beschreibung bereistellen.
 
-* Nachdem der Pull Request (PR) gemerged wurde, im Arbeitsverzeichnis wieder auf den `main` Branch wechseln und den letzten Stand bereistellen:
+* Nachdem der Pull Request (PR) gemerged wurde (**Squash and merge**), im Arbeitsverzeichnis wieder auf den `main` Branch wechseln und den letzten Stand abrufen:
 ```
 git checkout main
 git pull
