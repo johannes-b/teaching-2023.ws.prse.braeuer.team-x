@@ -13,18 +13,25 @@ Die wichtigsten Funktionen für Git sind hier zusammengefasst: [Git Cheat Sheet]
 
 * Initial das Repository von GitHub auf die eigene Entwicklerumgeben klonen:
 ```
-git clone 
+git clone https://github.com/johannes-b/teaching-2023.ws.prse.braeuer.team-x.git
 ```
 
 ## Git Flow
 
 Git Flow ist eine beliebte Git-Verzweigungsstrategie, um das Release-Management eines Projektes zu vereinfachen.
 
-### Feature in einem Branch entwickeln
+### Feature entwickeln
 
-Die folgenden Schritte zeigen einen Feature-Entwicklung in einem seperaten Branch und bezogen zu einem Ticket mit der ID: *4711*
+Die folgenden Schritte zeigen einen Featureentwicklung in einem seperaten Branch und bezogen zu einem Ticket mit der ID: *4711*
 
-* Aus dem Arbeitsverzeichnis einen Feature-Branch basierend auf dem letzten Commit erzeugen:
+* Den `main` Branch aktualisieren:
+```
+git checkout main
+git pull
+```
+
+
+* Einen Feature Branch basierend auf dem letzten Commit erzeugen. Dabei die dem Branch-Namen das Prefix (`feature` / `bug`) voranstellen, gefolgt von der Ticket ID und einer beschreibenden Bezeichnung:
 ```
 git create -b feature/4711/add-button
 ```
@@ -35,7 +42,7 @@ git add .
 git commit -m "Commit message (#4711)"
 ```
 
-* Den Feature Branch auf GitHub bereitstellen
+* Den Feature Branch auf GitHub bereitstellen:
 ```
 git push
 ```
