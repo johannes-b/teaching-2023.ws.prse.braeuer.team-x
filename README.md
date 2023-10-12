@@ -44,7 +44,8 @@ git pull
 
 * Einen Feature Branch basierend auf dem letzten Commit erzeugen. Dabei die dem Branch-Namen das Prefix (`feature` / `bug`) voranstellen, gefolgt von der Ticket ID und einer beschreibenden Bezeichnung:
 ```
-git create -b feature/4711/add-button
+git branch feature/4711/add-button
+git checkout feature/4711/add-button
 ```
 
 * Änderungen in einer Datei speichern und auf den Branch committen. Dabei auch die Ticket ID referenzieren:
@@ -55,7 +56,7 @@ git commit -m "Commit message (#4711)"
 
 * Den Feature Branch auf GitHub bereitstellen:
 ```
-git push
+git push --set-upstream origin feature/4711/add-button
 ```
 
 * Nachdem die Entwicklung abgeschlossen ist, einen Pull Request (PR) in GitHub anlegen, um die Änderung zu integrieren. 
