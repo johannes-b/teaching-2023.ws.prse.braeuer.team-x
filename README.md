@@ -1,5 +1,7 @@
 # Git (with GitHub)
 
+Add a new feature
+
 ## Einführung
 
 Git ist ein verteiltes Versionskontrollsystem, das für Projekte unterschiedlicher größe entwickelt wurd, um diese schnell und effizient abzuwickeln.
