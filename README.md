@@ -2,7 +2,7 @@
 
 ## Einführung
 
-Git ist ein kostenloses, quelloffenes und verteiltes Versionskontrollsystem, das für Projekte unterschiedlicher größe entwickelt wurd, um diese schnell und effizient abzuwickeln.
+Git ist ein verteiltes Versionskontrollsystem, das für Projekte unterschiedlicher größe entwickelt wurd, um diese schnell und effizient abzuwickeln.
 
 * Download Git: https://git-scm.com/downloads
 * GitHub Account anlegen: https://github.com/signup
@@ -18,7 +18,19 @@ git clone https://github.com/johannes-b/teaching-2023.ws.prse.braeuer.team-x.git
 
 ## Git Flow
 
-Git Flow ist eine beliebte Git-Verzweigungsstrategie, um das Release-Management eines Projektes zu vereinfachen.
+Git Flow ist eine beliebte Git-Branching-Strategie, um das Releasemanagement eines Projektes zu vereinfachen. Es erlaubt und unterstüzt: 
+
+* *Parallele Entwicklung*: Isoliert neue Entwicklung von fertiger Arbeit.
+* *Zusammenarbeit*: Erleichtert die Zusammenarbeit von zwei oder mehr Entwicklern an derselben Funktion.
+* *Veröffentlichungs- und Staging-Prozess*: Sobald die Entwicklung eines Features abgeschlossen ist, wird die Änderung in den `main` Branch integriert, der ein Staging-Bereich für alle abgeschlossenen Funktionen darstellt.
+* *Bug-Fixes*: Unterstützt Hotfixes–Branches, die aus einer getaggten Version erstellt wurden, die nur den Bug-Fix enthält.
+
+Man unterscheided zwischen unterschiedlichen Branche Typen, die basierend auf ihren Namen eine untschiedliche Bedeutung haben.
+
+* `main` - Repräsentiert den aktuellen Entwicklungsstand und existiert bis zum Löschen des Repositories.
+* `feature/1234/name` - Wird für die Entwicklung eines Features angelegt und nach Integration in den `main` Branch gelöscht.
+* `bug/4321/name` - Wird für die Umsetzung eines Bug-Fixes angelegt und nach Integration in den `main` Branch gelöscht. 
+* `release-0.x.x` - Repräsentiert einen funktionsfähigen Zustand des Produktes. 
 
 ### Feature entwickeln
 
@@ -29,7 +41,6 @@ Die folgenden Schritte zeigen einen Featureentwicklung in einem seperaten Branch
 git checkout main
 git pull
 ```
-
 
 * Einen Feature Branch basierend auf dem letzten Commit erzeugen. Dabei die dem Branch-Namen das Prefix (`feature` / `bug`) voranstellen, gefolgt von der Ticket ID und einer beschreibenden Bezeichnung:
 ```
@@ -56,6 +67,8 @@ git pull
 ```
 
 ### Release Branch erzeugen
+
+Ein Release Branch startet mit dem Namen `release` gefolgt von der Versionsnummer. Die Versionsnummer leitet sich aus dem [Semantic-Versioning](https://semver.org/) ab. 
 
 ```
 git checkout main
