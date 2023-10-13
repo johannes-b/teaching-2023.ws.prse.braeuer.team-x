@@ -1,5 +1,7 @@
 # Git (mit GitHub)
 
+Hier habe ich meine Spielwiese. 
+
 ## Einführung
 
 Git ist ein verteiltes Versionskontrollsystem, das für Projekte unterschiedlicher Größe entwickelt wurde, um diese schnell und effizient abzuwickeln.
