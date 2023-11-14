@@ -260,8 +260,6 @@
    <rule ref="category/java/errorprone.xml/MisplacedNullCheck"/>
    <rule ref="category/plsql/codestyle.xml/MisplacedPragma"/>
    <rule ref="category/java/errorprone.xml/MissingBreakInSwitch">
-      <priority>2</priority>
-   </rule>
    <rule ref="category/java/bestpractices.xml/MissingOverride"/>
    <rule ref="category/java/errorprone.xml/MissingSerialVersionUID"/>
    <rule ref="category/java/errorprone.xml/MissingStaticMethodInNonInstantiatableClass"/>
