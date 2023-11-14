@@ -198,7 +198,6 @@
    <rule ref="category/ecmascript/codestyle.xml/IfElseStmtsMustUseBraces"/>
    <rule ref="category/apex/codestyle.xml/IfStmtsMustUseBraces"/>
    <rule ref="category/ecmascript/codestyle.xml/IfStmtsMustUseBraces"/>
-   <rule ref="category/java/codestyle.xml/IfStmtsMustUseBraces"/>
    <rule ref="category/jsp/security.xml/IframeMissingSrcAttribute"/>
    <rule ref="category/java/design.xml/ImmutableField"/>
    <rule ref="category/java/performance.xml/InefficientEmptyStringCheck"/>
@@ -249,7 +248,6 @@
    <rule ref="category/apex/design.xml/NcssConstructorCount"/>
    <rule ref="category/java/design.xml/NcssCount"/>
    <rule ref="category/apex/design.xml/NcssMethodCount"/>
-   <rule ref="category/java/design.xml/NcssMethodCount"/>
    <rule ref="category/plsql/design.xml/NcssMethodCount"/>
    <rule ref="category/plsql/design.xml/NcssObjectCount"/>
    <rule ref="category/jsp/bestpractices.xml/NoClassAttribute"/>
@@ -292,7 +290,6 @@
    <rule ref="category/java/codestyle.xml/ShortVariable"/>
    <rule ref="category/java/design.xml/SignatureDeclareThrowsException"/>
    <rule ref="category/java/design.xml/SimplifiedTernary"/>
-   <rule ref="category/java/design.xml/SimplifyBooleanAssertion"/>
    <rule ref="category/java/design.xml/SimplifyBooleanExpressions"/>
    <rule ref="category/java/design.xml/SimplifyBooleanReturns"/>
    <rule ref="category/java/design.xml/SimplifyConditional"/>
@@ -300,12 +297,9 @@
    <rule ref="category/java/errorprone.xml/SingletonClassReturningNewInstance"/>
    <rule ref="category/java/design.xml/SingularField"/>
    <rule ref="category/java/errorprone.xml/StaticEJBFieldShouldBeFinal"/>
-   <rule ref="category/apex/design.xml/StdCyclomaticComplexity"/>
-   <rule ref="category/java/design.xml/StdCyclomaticComplexity"/>
    <rule ref="category/java/errorprone.xml/StringBufferInstantiationWithChar"/>
    <rule ref="category/java/performance.xml/StringInstantiation"/>
    <rule ref="category/java/performance.xml/StringToString"/>
-   <rule ref="category/java/codestyle.xml/SuspiciousConstantFieldName"/>
    <rule ref="category/java/errorprone.xml/SuspiciousEqualsMethodName"/>
    <rule ref="category/java/errorprone.xml/SuspiciousHashcodeMethodName"/>
    <rule ref="category/java/errorprone.xml/SuspiciousOctalEscape"/>
@@ -339,7 +333,6 @@
    <rule ref="category/java/codestyle.xml/UnnecessaryModifier"/>
    <rule ref="category/ecmascript/codestyle.xml/UnnecessaryParentheses"/>
    <rule ref="category/java/codestyle.xml/UnnecessaryReturn"/>
-   <rule ref="category/java/performance.xml/UnnecessaryWrapperObjectCreation"/>
    <rule ref="category/ecmascript/codestyle.xml/UnreachableCode"/>
    <rule ref="category/java/multithreading.xml/UnsynchronizedStaticFormatter"/>
    <rule ref="category/java/bestpractices.xml/UnusedFormalParameter"/>
@@ -351,10 +344,7 @@
    <rule ref="category/java/bestpractices.xml/UnusedPrivateMethod"/>
    <rule ref="category/java/performance.xml/UseArrayListInsteadOfVector"/>
    <rule ref="category/java/performance.xml/UseArraysAsList"/>
-   <rule ref="category/java/bestpractices.xml/UseAssertEqualsInsteadOfAssertTrue"/>
    <rule ref="category/java/bestpractices.xml/UseAssertNullInsteadOfAssertTrue"/>
-   <rule ref="category/java/bestpractices.xml/UseAssertSameInsteadOfAssertTrue"/>
-   <rule ref="category/java/bestpractices.xml/UseAssertTrueInsteadOfAssertEquals"/>
    <rule ref="category/ecmascript/bestpractices.xml/UseBaseWithParseInt"/>
    <rule ref="category/java/bestpractices.xml/UseCollectionIsEmpty"/>
    <rule ref="category/xsl/codestyle.xml/UseConcatOnce"/>
@@ -376,7 +366,6 @@
    <rule ref="category/java/codestyle.xml/UselessParentheses"/>
    <rule ref="category/java/codestyle.xml/UselessQualifiedThis"/>
    <rule ref="category/java/performance.xml/UselessStringValueOf"/>
-   <rule ref="category/java/codestyle.xml/VariableNamingConventions"/>
    <rule ref="category/vf/security.xml/VfCsrf"/>
    <rule ref="category/vf/security.xml/VfUnescapeEl"/>
    <rule ref="category/java/bestpractices.xml/WhileLoopWithLiteralBoolean"/>
