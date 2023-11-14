@@ -10,6 +10,7 @@ public class AddOperation implements ICalculationOperation {
 
 	private static final Logger LOGGER = LogManager.getLogger(AddOperation.class);
 
+
 	@Override
 	public String caclulate(String txt) {
 		LOGGER.info("Add Operation executed: " + txt);

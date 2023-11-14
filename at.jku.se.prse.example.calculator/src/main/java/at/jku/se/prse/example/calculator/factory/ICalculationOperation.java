@@ -11,4 +11,5 @@ public interface ICalculationOperation {
 
 	String caclulate(String input);
 
+
 }

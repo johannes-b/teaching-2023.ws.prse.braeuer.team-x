@@ -25,6 +25,7 @@ public class SimpleCalculator extends JFrame {
 			this.symbol = symbol;
 		}
 
+
 		String symbol;
 
 		public String getSymbol() {

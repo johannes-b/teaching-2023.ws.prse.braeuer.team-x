@@ -16,6 +16,7 @@ public class OperationFactory {
 
 	private static final Logger LOGGER = LogManager.getLogger(OperationFactory.class);
 
+
 	/**
 	 * 
 	 * @param action. The calculation operation to be performed.
