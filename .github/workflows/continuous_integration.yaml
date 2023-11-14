@@ -34,3 +34,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Start to test and build the artifact
+
+      - name: PMD check
+        uses: pmd/pmd-github-action@v1
+        with:
+          rulesets: 'ruleset.xml'
