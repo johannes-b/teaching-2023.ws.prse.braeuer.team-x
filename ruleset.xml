@@ -57,7 +57,6 @@
    <rule ref="category/java/bestpractices.xml/AvoidMessageDigestField"/>
    <rule ref="category/java/errorprone.xml/AvoidMultipleUnaryOperators"/>
    <rule ref="category/apex/errorprone.xml/AvoidNonExistentAnnotations"/>
-   <rule ref="category/java/codestyle.xml/AvoidPrefixingMethodParameters"/>
    <rule ref="category/java/bestpractices.xml/AvoidPrintStackTrace"/>
    <rule ref="category/java/codestyle.xml/AvoidProtectedFieldInFinalClass"/>
    <rule ref="category/java/codestyle.xml/AvoidProtectedMethodInFinalClassNotExtending"/>
@@ -96,7 +95,6 @@
    <rule ref="category/java/errorprone.xml/CloneMethodMustBePublic"/>
    <rule ref="category/java/errorprone.xml/CloneMethodMustImplementCloneable"/>
    <rule ref="category/java/errorprone.xml/CloneMethodReturnTypeMustMatchClassName"/>
-   <rule ref="category/java/errorprone.xml/CloneThrowsCloneNotSupportedException"/>
    <rule ref="category/java/errorprone.xml/CloseResource"/>
    <rule ref="category/plsql/codestyle.xml/CodeFormat"/>
    <rule ref="category/apex/design.xml/CognitiveComplexity"/>
@@ -122,14 +120,12 @@
    <rule ref="category/java/bestpractices.xml/DefaultLabelNotLastInSwitchStmt"/>
    <rule ref="category/java/errorprone.xml/DetachedTestCase"/>
    <rule ref="category/java/errorprone.xml/DoNotCallGarbageCollectionExplicitly"/>
-   <rule ref="category/java/errorprone.xml/DoNotCallSystemExit"/>
    <rule ref="category/java/design.xml/DoNotExtendJavaLangError"/>
    <rule ref="category/java/errorprone.xml/DoNotExtendJavaLangThrowable"/>
    <rule ref="category/java/errorprone.xml/DoNotHardCodeSDCard"/>
    <rule ref="category/java/errorprone.xml/DoNotThrowExceptionInFinally"/>
    <rule ref="category/java/multithreading.xml/DoNotUseThreads"/>
    <rule ref="category/java/multithreading.xml/DontCallThreadRun"/>
-   <rule ref="category/java/codestyle.xml/DontImportJavaLang"/>
    <rule ref="category/java/errorprone.xml/DontImportSun"/>
    <rule ref="category/jsp/bestpractices.xml/DontNestJsfInJstlIteration"/>
    <rule ref="category/java/errorprone.xml/DontUseFloatTypeForLoopIndices"/>
@@ -189,7 +185,6 @@
    <rule ref="category/java/bestpractices.xml/ForLoopVariableCount"/>
    <rule ref="category/apex/codestyle.xml/ForLoopsMustUseBraces"/>
    <rule ref="category/ecmascript/codestyle.xml/ForLoopsMustUseBraces"/>
-   <rule ref="category/java/codestyle.xml/ForLoopsMustUseBraces"/>
    <rule ref="category/apex/codestyle.xml/FormalParameterNamingConventions"/>
    <rule ref="category/java/codestyle.xml/FormalParameterNamingConventions"/>
    <rule ref="category/java/codestyle.xml/GenericsNaming"/>
@@ -201,13 +196,11 @@
    <rule ref="category/java/codestyle.xml/IdenticalCatchBranches"/>
    <rule ref="category/apex/codestyle.xml/IfElseStmtsMustUseBraces"/>
    <rule ref="category/ecmascript/codestyle.xml/IfElseStmtsMustUseBraces"/>
-   <rule ref="category/java/codestyle.xml/IfElseStmtsMustUseBraces"/>
    <rule ref="category/apex/codestyle.xml/IfStmtsMustUseBraces"/>
    <rule ref="category/ecmascript/codestyle.xml/IfStmtsMustUseBraces"/>
    <rule ref="category/java/codestyle.xml/IfStmtsMustUseBraces"/>
    <rule ref="category/jsp/security.xml/IframeMissingSrcAttribute"/>
    <rule ref="category/java/design.xml/ImmutableField"/>
-   <rule ref="category/java/errorprone.xml/ImportFromSamePackage"/>
    <rule ref="category/java/performance.xml/InefficientEmptyStringCheck"/>
    <rule ref="category/java/performance.xml/InefficientStringBuffering"/>
    <rule ref="category/ecmascript/errorprone.xml/InnaccurateNumericLiteral"/>
@@ -250,19 +243,15 @@
    <rule ref="category/java/errorprone.xml/MissingSerialVersionUID"/>
    <rule ref="category/java/errorprone.xml/MissingStaticMethodInNonInstantiatableClass"/>
    <rule ref="category/xml/errorprone.xml/MistypedCDATASection"/>
-   <rule ref="category/java/design.xml/ModifiedCyclomaticComplexity"/>
    <rule ref="category/java/errorprone.xml/MoreThanOneLogger"/>
    <rule ref="category/java/design.xml/NPathComplexity"/>
    <rule ref="category/plsql/design.xml/NPathComplexity"/>
    <rule ref="category/apex/design.xml/NcssConstructorCount"/>
-   <rule ref="category/java/design.xml/NcssConstructorCount"/>
    <rule ref="category/java/design.xml/NcssCount"/>
    <rule ref="category/apex/design.xml/NcssMethodCount"/>
    <rule ref="category/java/design.xml/NcssMethodCount"/>
    <rule ref="category/plsql/design.xml/NcssMethodCount"/>
    <rule ref="category/plsql/design.xml/NcssObjectCount"/>
-   <rule ref="category/apex/design.xml/NcssTypeCount"/>
-   <rule ref="category/java/design.xml/NcssTypeCount"/>
    <rule ref="category/jsp/bestpractices.xml/NoClassAttribute"/>
    <rule ref="category/ecmascript/codestyle.xml/NoElseReturn"/>
    <rule ref="category/jsp/bestpractices.xml/NoHtmlComments"/>
@@ -285,8 +274,6 @@
    <rule ref="category/java/performance.xml/OptimizableToArrayCall"/>
    <rule ref="category/java/errorprone.xml/OverrideBothEqualsAndHashcode"/>
    <rule ref="category/java/codestyle.xml/PackageCase"/>
-   <rule ref="category/java/bestpractices.xml/PositionLiteralsFirstInCaseInsensitiveComparisons"/>
-   <rule ref="category/java/bestpractices.xml/PositionLiteralsFirstInComparisons"/>
    <rule ref="category/java/bestpractices.xml/PreserveStackTrace"/>
    <rule ref="category/pom/errorprone.xml/ProjectVersionAsDependencyVersion"/>
    <rule ref="category/java/errorprone.xml/ProperCloneImplementation"/>
@@ -298,11 +285,9 @@
    <rule ref="category/java/bestpractices.xml/ReplaceEnumerationWithIterator"/>
    <rule ref="category/java/bestpractices.xml/ReplaceHashtableWithMap"/>
    <rule ref="category/java/bestpractices.xml/ReplaceVectorWithList"/>
-   <rule ref="category/java/errorprone.xml/ReturnEmptyArrayRatherThanNull"/>
    <rule ref="category/java/errorprone.xml/ReturnFromFinallyBlock"/>
    <rule ref="category/ecmascript/bestpractices.xml/ScopeForInVariable"/>
    <rule ref="category/java/codestyle.xml/ShortClassName"/>
-   <rule ref="category/java/performance.xml/ShortInstantiation"/>
    <rule ref="category/java/codestyle.xml/ShortMethodName"/>
    <rule ref="category/java/codestyle.xml/ShortVariable"/>
    <rule ref="category/java/design.xml/SignatureDeclareThrowsException"/>
@@ -311,7 +296,6 @@
    <rule ref="category/java/design.xml/SimplifyBooleanExpressions"/>
    <rule ref="category/java/design.xml/SimplifyBooleanReturns"/>
    <rule ref="category/java/design.xml/SimplifyConditional"/>
-   <rule ref="category/java/performance.xml/SimplifyStartsWith"/>
    <rule ref="category/java/errorprone.xml/SingleMethodSingleton"/>
    <rule ref="category/java/errorprone.xml/SingletonClassReturningNewInstance"/>
    <rule ref="category/java/design.xml/SingularField"/>
@@ -357,10 +341,8 @@
    <rule ref="category/java/codestyle.xml/UnnecessaryReturn"/>
    <rule ref="category/java/performance.xml/UnnecessaryWrapperObjectCreation"/>
    <rule ref="category/ecmascript/codestyle.xml/UnreachableCode"/>
-   <rule ref="category/java/multithreading.xml/UnsynchronizedStaticDateFormatter"/>
    <rule ref="category/java/multithreading.xml/UnsynchronizedStaticFormatter"/>
    <rule ref="category/java/bestpractices.xml/UnusedFormalParameter"/>
-   <rule ref="category/java/bestpractices.xml/UnusedImports"/>
    <rule ref="category/apex/bestpractices.xml/UnusedLocalVariable"/>
    <rule ref="category/java/bestpractices.xml/UnusedLocalVariable"/>
    <rule ref="category/vm/bestpractices.xml/UnusedMacroParameter"/>
@@ -394,12 +376,10 @@
    <rule ref="category/java/codestyle.xml/UselessParentheses"/>
    <rule ref="category/java/codestyle.xml/UselessQualifiedThis"/>
    <rule ref="category/java/performance.xml/UselessStringValueOf"/>
-   <rule ref="category/apex/codestyle.xml/VariableNamingConventions"/>
    <rule ref="category/java/codestyle.xml/VariableNamingConventions"/>
    <rule ref="category/vf/security.xml/VfCsrf"/>
    <rule ref="category/vf/security.xml/VfUnescapeEl"/>
    <rule ref="category/java/bestpractices.xml/WhileLoopWithLiteralBoolean"/>
    <rule ref="category/apex/codestyle.xml/WhileLoopsMustUseBraces"/>
    <rule ref="category/ecmascript/codestyle.xml/WhileLoopsMustUseBraces"/>
-   <rule ref="category/java/codestyle.xml/WhileLoopsMustUseBraces"/>
 </ruleset>
