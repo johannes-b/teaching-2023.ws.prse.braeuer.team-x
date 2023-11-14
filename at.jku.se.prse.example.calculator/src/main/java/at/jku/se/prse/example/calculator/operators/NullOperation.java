@@ -15,5 +15,4 @@ public class NullOperation implements ICalculationOperation {
 		return "0";
 
 	}
-
 }

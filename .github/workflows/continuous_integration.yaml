@@ -39,7 +39,7 @@ jobs:
         uses: pmd/pmd-github-action@v1
         id: pmd
         with:
-          version: '6.40.0'
+         # version: '6.40.0'
           sourcePath: 'at.jku.se.prse.example.calculator/src/main/java'
           rulesets: 'ruleset.xml'
 

@@ -10,6 +10,4 @@ package at.jku.se.prse.example.calculator.factory;
 public interface ICalculationOperation {
 
 	String caclulate(String input);
-
-
 }
