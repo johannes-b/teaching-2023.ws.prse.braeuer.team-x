@@ -15,9 +15,9 @@
         <pluginManagement>
             <plugins>
                 <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-jar-plugin</artifactId>
-                    <version>2.1</version>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>2.1</version>
 					<configuration>
 						<archive>
 							<manifest>
@@ -26,9 +26,9 @@
 							</manifest>
 						</archive>
 					</configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
+				</plugin>
+			</plugins>
+		</pluginManagement>
     </build>
 
 	<dependencies>
