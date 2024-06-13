@@ -16,7 +16,7 @@ import javax.swing.border.EmptyBorder;
 import at.jku.se.prse.example.calculator.factory.OperationFactory;
 
 public class SimpleCalculator extends JFrame {
-//abc
+
 	public enum CalcAction {
 
 		ADD("+"), SUB("-"), MULT("x"), DIV("/"), POW("^");

@@ -35,7 +35,7 @@ jobs:
       - name: Run a one-line script
         run: echo Start to test and build the artifact
 
-      - name: PMD check
+      - name: PMD Code Check
         uses: pmd/pmd-github-action@v1
         id: pmd
         with:
@@ -43,7 +43,7 @@ jobs:
           sourcePath: 'at.jku.se.prse.example.calculator/src/main/java'
           rulesets: 'ruleset.xml'
 
-      - name: Fail build if there are violations
+      - name: Automatisierung bei einer Verletzung stoppen 
         if: steps.pmd.outputs.violations != 0
         run: exit 1
 
